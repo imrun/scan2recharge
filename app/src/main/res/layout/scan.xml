@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/colorprimaryred"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMART CELL"
+        android:id="@+id/button3"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DISH TV"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NTC"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textSize="100px"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREPAID"
+        android:id="@+id/button01"
+        android:layout_below="@+id/textView2"
+        android:layout_toStartOf="@+id/textView"
+        android:layout_toLeftOf="@+id/textView"
+        android:onClick="onclick"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POSTPAID"
+        android:id="@+id/button02"
+        android:layout_alignTop="@+id/button01"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NCELL"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button01"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="normal|bold"
+        android:textSize="100px"
+        android:textAlignment="center"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREPAID"
+        android:id="@+id/button11"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/button01"
+        android:layout_alignStart="@+id/button01" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="POSTPAID"
+        android:id="@+id/button12"
+        android:layout_alignBottom="@+id/button11"
+        android:layout_alignLeft="@+id/button02"
+        android:layout_alignStart="@+id/button02" />
+
+
+</RelativeLayout>
